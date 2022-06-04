@@ -2,7 +2,7 @@
 # Website live Link Here!
 
 This project was bootstrapped with React
-[Iphone Review App](https://github.com/facebook/create-react-app](https://react-phone-review.netlify.app/).
+[Iphone Review App](https://react-phone-review.netlify.app/).
 
 ## What are included of React Anatomy
 
