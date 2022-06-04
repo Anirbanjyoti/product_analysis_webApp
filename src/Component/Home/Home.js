@@ -8,7 +8,7 @@ import useReview from '../../hooks/useReview';
 
 const Home = () => {
 
-const [reviews, setReviews] = useReview();
+const [reviews] = useReview();
     return (
         <div>
             <Container>
@@ -28,7 +28,7 @@ const [reviews, setReviews] = useReview();
                 </ul>
                 
                 Get ready to capture cinematic shots as the Apple iPhone 13 Pro Max features a new Cinematic mode. This smartphone takes your photography experience to a new height. It comes with an amazing combination of 12 MP (telephoto camera), 12 MP (wide camera), and 12 MP (ultra-wide camera). Snap memorable moments in clear detail with the 12 MP wide camera. This phone is made for low light. The Wide camera adds a wider aperture and our largest sensor yet and it leverages the LiDAR Scanner for Night mode portraits. With its redesigned lens and powerful autofocus system, the new Ultra-Wide camera can focus at just 2 centimeters making even the</p> 
-                                <Button className='demo' variant="primary" size="sm">View Demo</Button>
+                                <Button className='demo' variant="primary" size="sm">View Details</Button>
                 </Col>
                         <Col md={4} sm={12}>
                             <Image className="phone-image" src={display_img} alt='image'></Image>
@@ -47,7 +47,7 @@ const [reviews, setReviews] = useReview();
                             <div className="client_review">
                                 <p>{review.phone_name}</p>
                                 <h3>Customer :{review.buyer_name}</h3>
-                                <h2>Ratings: {review.Ratings}</h2>
+                                <h4>Ratings: {review.Ratings}</h4>
                                 <p>Feedback:{review.statement}</p>
                             </div>
                             </div> 

@@ -17,7 +17,7 @@ const Reviews = (props) => {
                             <div className="client_review">
                                 <p>{review.phone_name}</p>
                                 <h3>Customer :{review.buyer_name}</h3>
-                                <h2>Ratings: {review.Ratings}</h2>
+                                <h4>Ratings: {review.Ratings}</h4>
                                 <p>Feedback:{review.statement}</p>
                             </div>
                             </div> 
