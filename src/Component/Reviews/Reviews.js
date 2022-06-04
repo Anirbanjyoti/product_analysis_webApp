@@ -1,26 +1,25 @@
-import React, { useEffect, useState } from 'react';
+import React, {} from 'react';
 import { Image } from 'react-bootstrap';
+import useReview from '../../hooks/useReview';
+import './Reviews.css';
 
 const Reviews = (props) => {
-    const [reviews, setReviews] =useState([]);
-    useEffect(()=>{
-        fetch ('reviews.json')
-        .then (res => res.json())
-        // .then (data => console.log(data))
-        .then (data => setReviews(data))
-    }, [])
+    const [reviews] =useReview();
     
     return (
-        <div>
-            <h1>This is reviews Page</h1>
+        <div className='allReviews'>
             {
                             reviews.map(review => 
-                            <div key={review.phone_id}>
+                            <div className='single_review' key={review.phone_id}>
+                            <div className="client_img">
                                 <Image src={review.thumbnailUrl}></Image>
+                            </div>
+                            <div className="client_review">
                                 <p>{review.phone_name}</p>
                                 <h3>Customer :{review.buyer_name}</h3>
                                 <h2>Ratings: {review.Ratings}</h2>
                                 <p>Feedback:{review.statement}</p>
+                            </div>
                             </div> 
                             )
                             

@@ -4,11 +4,11 @@ import display_img from "../../Capture.PNG";
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import './Home.css'
 import { Link } from 'react-router-dom';
+import useReview from '../../hooks/useReview';
 
 const Home = () => {
 
-
-
+const [reviews, setReviews] = useReview();
     return (
         <div>
             <Container>
@@ -37,7 +37,23 @@ const Home = () => {
                     <Row>
                         <Col md={12}>
                         <h2 className='cus-rev'>Customer Reviews (3)</h2>
-
+                    
+                            {
+                            reviews.slice(0, 3).map(review => 
+                            <div className='single_review' key={review.phone_id}>
+                            <div className="client_img">
+                                <Image src={review.thumbnailUrl}></Image>
+                            </div>
+                            <div className="client_review">
+                                <p>{review.phone_name}</p>
+                                <h3>Customer :{review.buyer_name}</h3>
+                                <h2>Ratings: {review.Ratings}</h2>
+                                <p>Feedback:{review.statement}</p>
+                            </div>
+                            </div> 
+                            )
+                            
+                        }
 
                             <div className="all_reviews">
                             <Link to='/Reviews'><Button variant="primary" size="lg">View All Reviews</Button></Link>

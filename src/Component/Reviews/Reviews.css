@@ -1,0 +1,14 @@
+.allReviews {
+    width: 900px;
+    margin: auto;
+}
+.single_review {
+    display: flex;
+    border: 2px solid darkseagreen;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.client_img {
+    margin-right: 20px;
+}
