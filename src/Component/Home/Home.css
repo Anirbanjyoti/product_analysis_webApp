@@ -1,0 +1,18 @@
+.phone-image {
+    width: 100%;
+    height: 100%;
+}
+.display-section {
+    min-height: 500px;
+}
+.all_reviews {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.phone-des {
+    display: grid;
+    align-content: center;
+}
+.demo{
+        width: 100px;
+}
