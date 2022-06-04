@@ -12,7 +12,7 @@ In this project includes:
    <li>React custom hooks</li>
    <li>React bootstrap</li> 
   <li>React linchart, radarchart</li>
-   <li>404 page/li>
+   <li>404 page</li>
    <li>Home page 3 customer reviews</li>
 </ul>
 
