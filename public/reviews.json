@@ -1,0 +1,83 @@
+[
+    {
+        "phone_id": 1,
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "David Warner",
+        "Ratings": 5,
+        "statement": "This is a awesome phone of Iphone Company"
+    },
+    {
+        "phone_id": 2,
+        "thumbnailUrl": "https://via.placeholder.com/150/771796",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "Jack dowson",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    },
+    {
+        "phone_id": 3,
+        "thumbnailUrl": "https://via.placeholder.com/150/24f355",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "Peter son",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    },
+    {
+        "phone_id": 4,
+        "thumbnailUrl": "https://via.placeholder.com/150/d32776",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "MacDonald",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    },
+    {
+        "phone_id": 5,
+        "thumbnailUrl": "https://via.placeholder.com/150/f66b97",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "Maria",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    },
+    {
+        "phone_id": 6,
+        "thumbnailUrl": "https://via.placeholder.com/150/56a8c2",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "Jhinky",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    },
+    {
+        "phone_id": 7,
+        "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "sweety",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    },
+    {
+        "phone_id": 8,
+        "thumbnailUrl": "https://via.placeholder.com/150/54176f",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "Petrovan",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    },
+    {
+        "phone_id": 9,
+        "thumbnailUrl": "https://via.placeholder.com/150/51aa97",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "nappi",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    },
+    {
+        "phone_id": 10,
+        "thumbnailUrl": "https://via.placeholder.com/150/810b14",
+        "phone_name": "Iphone 13 Pro",
+        "buyer_name": "jordan",
+        "Ratings": 5,
+        "statement": "There are plenty options in this phone. So First. I love it"
+    }
+
+]
